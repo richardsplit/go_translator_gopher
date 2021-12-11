@@ -3,7 +3,7 @@ package history_test
 import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	. "github.com/richardsplit/translator_go/pkg/history"
+	. "github.com/richardsplit/go_translator_gopher/pkg/history"
 )
 
 var _ = Describe("History", func() {

@@ -7,10 +7,10 @@ import (
 
 	"github.com/go-resty/resty/v2"
 	"github.com/golang/mock/gomock"
-	"github.com/richardsplit/translator_go/pkg/handlers"
-	"github.com/richardsplit/translator_go/pkg/handlers/handlers_mocks"
-	"github.com/richardsplit/translator_go/pkg/model"
-	"github.com/richardsplit/translator_go/pkg/translation"
+	"github.com/richardsplit/go_translator_gopher/pkg/handlers"
+	"github.com/richardsplit/go_translator_gopher/pkg/handlers/handlers_mocks"
+	"github.com/richardsplit/go_translator_gopher/pkg/model"
+	"github.com/richardsplit/go_translator_gopher/pkg/translation"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

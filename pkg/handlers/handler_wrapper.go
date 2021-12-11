@@ -3,7 +3,7 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/richardsplit/translator_go/pkg/server"
+	"github.com/richardsplit/go_translator_gopher/pkg/server"
 	"github.com/sirupsen/logrus"
 )
 

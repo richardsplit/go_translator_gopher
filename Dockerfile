@@ -1,7 +1,11 @@
-FROM golang:1.12.0-alpine3.9
+FROM golang:1.16-alpine
 
 RUN mkdir /go_translator_gopher
 ADD . /go_translator_gopher
 WORKDIR /go_translator_gopher
-RUN go build -o main .
-CMD ["/go_translator_gopher/main.go"]
+COPY go.mod ./
+COPY go.sum ./
+RUN go mod download
+COPY *.go ./
+RUN go build -o /go_translator_gopher
+CMD ["/go_translator_gopher"]

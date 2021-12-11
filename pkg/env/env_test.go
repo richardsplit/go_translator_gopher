@@ -6,7 +6,7 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/richardsplit/translator_go/pkg/env"
+	"github.com/richardsplit/go_translator_gopher/pkg/env"
 )
 
 var _ = Describe("Env", func() {

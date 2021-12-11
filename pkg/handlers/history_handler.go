@@ -4,8 +4,8 @@ import (
 	"net/http"
 
 	"github.com/pkg/errors"
-	"github.com/richardsplit/translator_go/pkg/model"
-	"github.com/richardsplit/translator_go/pkg/server"
+	"github.com/richardsplit/go_translator_gopher/pkg/model"
+	"github.com/richardsplit/go_translator_gopher/pkg/server"
 )
 
 type HistoryHandler struct{}

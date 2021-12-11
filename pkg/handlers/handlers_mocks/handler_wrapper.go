@@ -6,8 +6,8 @@ package handlers_mocks
 
 import (
 	gomock "github.com/golang/mock/gomock"
-	handlers "github.com/richardsplit/translator_go/pkg/handlers"
-	server "github.com/richardsplit/translator_go/pkg/server"
+	handlers "github.com/richardsplit/go_translator_gopher/pkg/handlers"
+	server "github.com/richardsplit/go_translator_gopher/pkg/server"
 	reflect "reflect"
 )
 

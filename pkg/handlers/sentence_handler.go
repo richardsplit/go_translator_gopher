@@ -5,9 +5,9 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	"github.com/richardsplit/translator_go/pkg/model"
-	"github.com/richardsplit/translator_go/pkg/server"
-	"github.com/richardsplit/translator_go/pkg/translation"
+	"github.com/richardsplit/go_translator_gopher/pkg/model"
+	"github.com/richardsplit/go_translator_gopher/pkg/server"
+	"github.com/richardsplit/go_translator_gopher/pkg/translation"
 )
 
 type SentenceHandler struct{}

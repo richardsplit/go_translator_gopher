@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/richardsplit/translator_go/pkg/app"
-	"github.com/richardsplit/translator_go/pkg/env"
-	"github.com/richardsplit/translator_go/pkg/handlers"
-	"github.com/richardsplit/translator_go/pkg/history"
-	"github.com/richardsplit/translator_go/pkg/translation"
+	"github.com/richardsplit/go_translator_gopher/pkg/app"
+	"github.com/richardsplit/go_translator_gopher/pkg/env"
+	"github.com/richardsplit/go_translator_gopher/pkg/handlers"
+	"github.com/richardsplit/go_translator_gopher/pkg/history"
+	"github.com/richardsplit/go_translator_gopher/pkg/translation"
 
 	"github.com/gorilla/mux"
 	"github.com/pkg/errors"
@@ -39,9 +39,7 @@ func main() {
 		Methods(http.MethodPost)
 
 	sentenceHandler := handlers.NewSentenceHandler()
-	router.
-		HandleFunc("/sentence", handlers.TranslatorHandlerWrapperFunc(translator, sentenceHandler, history)).
-		Methods(http.MethodPost)
+	router.HandleFunc("/sentence", handlers.TranslatorHandlerWrapperFunc(translator, sentenceHandler, history)).Methods(http.MethodPost)
 
 	historyHandler := handlers.NewHistoryHandler()
 

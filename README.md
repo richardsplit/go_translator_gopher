@@ -20,6 +20,13 @@ go run main.go -port=<input_port>
 ```
 type the port which the application should use
 
+
+## Docker
+
+```sh
+Go to branch "docker_app" 
+```
+
 ## Run tests
 
 ### Prerequisites

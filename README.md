@@ -16,7 +16,8 @@ Gophers are friendly creatures but it’s not that easy to communicate with them
 ```sh
 go mod vendor
 go run main.go
-# go run main.go
+## go run main.go
+## type the port which the application should 
 ```
 
 ## Run tests

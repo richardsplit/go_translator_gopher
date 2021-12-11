@@ -3,7 +3,7 @@
 ~
 
 [![Build Status](https://travis-ci.com/adria-stef/gopher-translator-service.svg?branch=main)](https://travis-ci.com/adria-stef/gopher-translator-service)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/richardsplit/translator_go/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/richardsplit/translator_go/blob/main/LICENSE)
 
 ## Overview
 

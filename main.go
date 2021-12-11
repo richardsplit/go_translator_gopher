@@ -38,14 +38,16 @@ func main() {
 	router.HandleFunc("/word", handlers.TranslatorHandlerWrapperFunc(translator, wordHandler, history)).
 		Methods(http.MethodPost)
 
+	sentenceHandler := handlers.NewSentenceHandler()
+	router.
+		HandleFunc("/sentence", handlers.TranslatorHandlerWrapperFunc(translator, sentenceHandler, history)).
+		Methods(http.MethodPost)
+
 	historyHandler := handlers.NewHistoryHandler()
 
 	router.HandleFunc("/history", handlers.HandlerWrapperFunc(historyHandler, history)).Methods(http.MethodGet)
 
-	fmt.Printf("Enter the port for the application: ")
-	var first int
-	fmt.Scanln(&first)
-	portInfo := flag.Int("port", first, "port")
+	portInfo := flag.Int("port", 8080, "port")
 	flag.Parse()
 
 	host := env.OptionalString("HOST", "127.0.0.1")
@@ -77,7 +79,7 @@ func main() {
 
 	lifecycle.WaitExitSignal()
 
-	logrus.Info("shutting down the server,please wait...")
+	logrus.Info("shutting down the server...")
 
 	if err := httpServer.Shutdown(context.Background()); err != nil {
 		logrus.WithError(err).Error("failed to properly stop http server")

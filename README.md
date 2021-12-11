@@ -15,7 +15,8 @@ Gophers are friendly creatures but it’s not that easy to communicate with them
 
 ```sh
 go mod vendor
-go run main.go
+go run main.go -port=<input_port>
+# go run main.go
 ```
 type the port which the application should use
 
@@ -33,12 +34,19 @@ ginkgo -v
 ## Sample calls locally
 
 ```sh
-curl -X POST http://127.0.0.1:your_port/word -d '{"english-word": "penguin"}'
+curl -X POST http://127.0.0.1:8081/word -d '{"english-word": "subliminal"}'
 ```
+Example output:
+{"gopher-word":"ubliminalsogo"}
+
 
 ```sh
-curl -X POST http://127.0.0.1:your_port/sentence -d '{"english-sentence": "You either die a hero, or you live long enough to see yourself become the villain."}'
+curl -X POST http://127.0.0.1:8081/sentence -d '{"english-sentence": "Ever have that feeling where you are not sure if you are awake or dreaming?"}'
 ```
+
+Example output:
+{"gopher-sentence":"gEver avehogo atthogo eelingfogo herewogo ouyogo gare otnogo uresogo gif ouyogo gare gawake gor reamingdogo?"}
+
 
 ```sh
 curl http://127.0.0.1:your_port/history

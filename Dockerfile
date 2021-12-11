@@ -10,5 +10,5 @@ RUN go mod vendor
 RUN go mod download
 RUN go build -o main main.go
 
-EXPOSE 8080
-CMD ["/go_translator_gopher/main"]
+EXPOSE 8081
+CMD ["/go_translator_gopher/main", "-port=8081"]

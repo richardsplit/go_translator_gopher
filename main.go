@@ -45,10 +45,10 @@ func main() {
 
 	router.HandleFunc("/history", handlers.HandlerWrapperFunc(historyHandler, history)).Methods(http.MethodGet)
 
-	portInfo := flag.Int("port", 8080, "port")
+	portInfo := flag.Int("port", 8081, "port")
 	flag.Parse()
 
-	host := env.OptionalString("HOST", "127.0.0.1")
+	host := env.OptionalString("HOST", "localhost")
 
 	port, err := env.OptionalInt("PORT", *portInfo)
 

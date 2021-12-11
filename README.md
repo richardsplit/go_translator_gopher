@@ -2,7 +2,7 @@
 
 ~
 
-[![Build Status](https://travis-ci.com/adria-stef/gopher-translator-service.svg?branch=main)](https://travis-ci.com/adria-stef/gopher-translator-service)
+[![Build Status](https://github.com/richardsplit/translator_go/actions/workflows/Complete/badge.svg)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/richardsplit/translator_go/blob/main/LICENSE)
 
 ## Overview
@@ -25,8 +25,8 @@ type the port which the application should use
 
 ```sh
 Go to branch "docker_app" 
-[![docker_app](https://github.com/richardsplit/go_translator_gopher/tree/docker_app)]
-
+https://github.com/richardsplit/go_translator_gopher/tree/docker_app
+![example branch parameter](https://github.com/richardsplit/go_translator_gopher//main.yml/badge.svg?branch=docker_app)
 ```
 
 ## Run tests

@@ -89,12 +89,12 @@ http://127.0.0.1:your_port/sentence
 
 
 Body raw example:
-{"english-sentence": "english-sentence":"We're not here because we're free. We're here because we're not free. There's no escaping reason. No denying purpose. Because as we both know without purpose, we would not exist."}
+{"english-sentence": "english-sentence":"We're not here because we're free. We're here because we're not free."}
 ```
 
 Example Output:
 {
-    "gopher-sentence": "ereWogo otnogo erehogo ecausebogo erewogo reefogo. ereWogo erehogo ecausebogo erewogo otnogo reefogo. eresThogo onogo gescaping easonrogo. oNogo enyingdogo urposepogo. ecauseBogo gas ewogo othbogo nowkogo ithoutwogo urposepogo, ewogo ouldwogo otnogo gexist."
+    "gopher-sentence": "ereWogo otnogo erehogo ecausebogo erewogo reefogo. ereWogo erehogo ecausebogo erewogo otnogo reefogo."
 }
 
 

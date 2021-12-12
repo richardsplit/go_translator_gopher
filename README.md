@@ -26,6 +26,9 @@ type the port which the application should use
 ```sh
 Go to branch "docker_app" 
 https://github.com/richardsplit/go_translator_gopher/tree/docker_app
+[docker_app].
+
+  [docker_app]: https://github.com/richardsplit/go_translator_gopher/tree/docker_app "Docker branch"
 ```
 
 ## Run tests

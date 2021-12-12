@@ -13,6 +13,6 @@ jobs:
       run: docker build ./go_translator_gopher/Dockerfile --tag my-image-name:$(date +%s)
        
      -name: Publish to Registry
-      uses: richardsplit
+      uses: go_translator_gopher
       with: 
         name: docker_image_translator

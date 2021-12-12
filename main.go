@@ -48,7 +48,7 @@ func main() {
 	portInfo := flag.Int("port", 8080, "port")
 	flag.Parse()
 
-	host := env.OptionalString("HOST", "127.0.0.1")
+	host := env.OptionalString("HOST", "localhost")
 
 	port, err := env.OptionalInt("PORT", *portInfo)
 

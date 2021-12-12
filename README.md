@@ -1,13 +1,25 @@
 # English <-> Gopher - Go Service translator :page_with_curl:
 
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/richardsplit/translator_go/blob/main/LICENSE)
-
 ## Overview
 
 This is an HTTP  English <-> Gopher - Go Service translator.
 
 ##Docker 
--
+
+# Via github workflow:      //In Progress ...
+```
+# Build docker image from docker_app_docker-image.yml
+
+- docker build . --tag ghrc.io/go_translation_gopher/docker_app/gopher:latest   
+
+# Create container locally 
+- docker run -it -p 8081:8081 ghrc.io/go_translation_gopher/docker_app/gopher:late   
+
+```
+
+
+
+# Locally 
 -Docker should be installed 
 
 Docker file is in go_translation_gopher main dir

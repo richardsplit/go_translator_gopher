@@ -15,5 +15,7 @@ run commands:
 ```
 docker build -t <nameofimage> -f Dockerfile .    
 #container 
+ docker run -it -p localport:containerport  <nameofcreatedimage> 
+   example:
  docker run -it -p 8081:8081  <nameofcreatedimage>   
 ```

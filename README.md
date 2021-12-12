@@ -10,7 +10,7 @@ This is an HTTP  English <-> Gopher - Go Service translator.
 [![Docker Image CI](https://github.com/richardsplit/go_translator_gopher/actions/workflows/docker_app_docker-image.yml/badge.svg?branch=docker_app)](https://github.com/richardsplit/go_translator_gopher/actions/workflows/docker_app_docker-image.yml)
 
 
-In progress..
+ -In progress..
 
 ```
 # Build docker image from docker_app_docker-image.yml

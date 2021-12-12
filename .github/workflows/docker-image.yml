@@ -19,7 +19,7 @@ jobs:
     
     - name: Docker meta
       id: docker_meta
-      uses: go_traslator_gopher/docker_meta@v1
+      uses: go_translator_gopher/tree/docker_app
       with:
         images: ghrc.io/richardsplit/gopher_tr
         tag-sha: true

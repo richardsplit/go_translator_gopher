@@ -16,7 +16,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build the Docker image
       run: |
-        docker build . --tag ghcr.io/richardsplit/go_translator_gopher/docker_app/gopher:latest
-        docker run ghcr.io/richardsplit/go_translator_gopher/docker_app/gopher:latest
-        docker push ghcr.io/richardsplit/go_translator_gopher/docker_app/gopher:latest
+        docker build . --tag ghcr.io/go_translator_gopher/docker_app/gopher:latest
+        docker run ghcr.io/go_translator_gopher/docker_app/gopher:latest
+        docker push ghcr.io/go_translator_gopher/docker_app/gopher:latest
         

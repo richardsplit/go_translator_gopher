@@ -17,6 +17,7 @@ This is an HTTP  English <-> Gopher - Go Service translator.
 # Create container locally 
 - docker run -it -p 8081:8081 ghrc.io/go_translation_gopher/docker_app/gopher:late   
 
+# In progress..
 ```
 
 

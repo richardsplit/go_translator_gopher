@@ -11,4 +11,8 @@ RUN go mod download
 RUN go build -o main main.go
 
 EXPOSE 8081
+<<<<<<< HEAD
 CMD ["/go_translator_gopher/main", "-port=8081"]
+=======
+CMD ["/go_translator_gopher/main"]
+>>>>>>> 55af0dd4ad43a814aa4963b8471d033fdf233a0d

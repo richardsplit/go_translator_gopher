@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
      -name: Build Docker Image
-      run: docker build . --tag my-image-name:$(date +%s)
+      run: docker build ./go_translator_gopher/Dockerfile --tag my-image-name:$(date +%s)
        
      -name: Publish to Registry
       uses: richardsplit

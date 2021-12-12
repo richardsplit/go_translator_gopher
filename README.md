@@ -2,7 +2,6 @@
 
 ~
 
-[![Build Status](https://github.com/richardsplit/translator_go/actions/workflows/<WORKFLOW_FILE>/badge.svg)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/richardsplit/translator_go/blob/main/LICENSE)
 
 ## Overview
@@ -26,9 +25,6 @@ type the port which the application should use
 ```sh
 Go to branch "docker_app" 
 https://github.com/richardsplit/go_translator_gopher/tree/docker_app
-[docker_app].
-
-  [docker_app]: https://github.com/richardsplit/go_translator_gopher/tree/docker_app "Docker branch"
 ```
 
 ## Run tests

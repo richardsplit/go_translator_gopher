@@ -10,9 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -name: Build Docker Image
-       run: docker build. --tag my-image-name:$(date +%)
+       run: docker build . --tag my-image-name:$(date +%s)
        
        -name: Publish to Registry
-        uses: richardsplit/go_translator_gopher@docker_app
+        uses: richardsplit
         with: 
           name: docker_image_translator

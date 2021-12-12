@@ -9,17 +9,6 @@
 
 This is an HTTP  English <-> Gopher - Go Service translator.
 
-Gophers are friendly creatures but it’s not that easy to communicate with them. They have their own language and they don’t understand English. You can use this service to translate to their language.
-
-## Setup and run locally
-
-```sh
-go mod vendor
-go run main.go -port=<input_port>
-# go run main.go
-```
-type the port which the application should use
-
 ##Docker 
 -
 -Docker should be installed 

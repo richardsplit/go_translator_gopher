@@ -6,7 +6,7 @@ This is an HTTP  English <-> Gopher - Go Service translator.
 
 ##Docker 
 
-# Via github workflow:      //In Progress ...
+# Via github workflow:
 ```
 # Build docker image from docker_app_docker-image.yml
 

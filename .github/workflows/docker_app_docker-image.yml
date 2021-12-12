@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag gopher:$(date +%s)
+      run: docker build https://github.com/richardsplit/go_translator_gopher.git#docker_app --tag gopher:$(date +%s)

@@ -55,15 +55,15 @@ var _ = Describe("Translator", func() {
 
 		When("sentence does not end in punctuation mark", func() {
 			It("returns error", func() {
-				_, err := translator.TranslateSentence("I'm Batman")
+				_, err := translator.TranslateSentence("I'm IronMan")
 				Expect(err).To(HaveOccurred())
 			})
 		})
 
 		It("translates all words in a sentence", func() {
-			result, err := translator.TranslateSentence("You either die a hero, or you live long enough to see yourself become the villain.")
+			result, err := translator.TranslateSentence("We're not here because we're free. We're here because we're not free..")
 			Expect(err).ToNot(HaveOccurred())
-			Expect(result).To(Equal("ouYogo geither iedogo ga erohogo, gor ouyogo ivelogo onglogo genough otogo eesogo ourselfyogo ecomebogo ethogo illainvogo."))
+			Expect(result).To(Equal("ereWogo otnogo erehogo ecausebogo erewogo reefogo. ereWogo erehogo ecausebogo erewogo otnogo reefogo."))
 		})
 
 	})

@@ -59,7 +59,7 @@ func (t *Translator) TranslateWord(original string) (string, error) {
 	}
 }
 
-// punctuations list could be extended.
+// punctuations list could be extended or modified.
 var allPunctuations = []string{",", ":", ";", "-", ".", "?", "!"}
 var endPunctuations = []string{".", "?", "!"}
 
